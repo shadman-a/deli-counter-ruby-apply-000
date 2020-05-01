@@ -18,6 +18,9 @@ def take_a_number
   puts "order number #{$number + 1}"
 end
 
+take_a_number
+take_a_number
+take_a_number
 
 def now_serving (katz_deli)
 if katz_deli.empty? == false
