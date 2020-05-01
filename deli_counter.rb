@@ -15,7 +15,7 @@ def line(katz_deli)
 end
 
 def take_a_number
-  puts "order number #{$number + 1}"
+  puts "order number #{$number += 1}"
 end
 
 take_a_number
