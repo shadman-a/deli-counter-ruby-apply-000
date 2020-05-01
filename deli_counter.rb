@@ -1,5 +1,7 @@
 katz_deli = []
 
+$number = 0
+
 def line(katz_deli)
   if katz_deli.empty? == true
     puts "The line is currently empty."
@@ -12,9 +14,8 @@ def line(katz_deli)
   end
 end
 
-def take_a_number (katz_deli, new_name)
-  katz_deli << new_name
-  puts "Welcome, #{new_name}. You are number #{katz_deli.count} in line."
+def take_a_number
+  puts "order number #{$number + 1}"
 end
 
 
